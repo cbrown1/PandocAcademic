@@ -15,6 +15,27 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>include</key>
+			<string>#critic-addition</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#critic-substitution</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#critic-highlight</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#critic-deletion</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#critic-comment</string>
+		</dict>
+
+		<dict>
 			<key>comment</key>
 			<string>Metainformation of the files such as Title, Author, Date</string>
 			<key>match</key>
@@ -294,6 +315,7 @@
 				</dict>
 			</array>
 		</dict>
+
 		<!--
 		<dict>
 			<key>comment</key>
@@ -305,6 +327,60 @@
 		</dict>
 	  -->
 	</array>
+
+	<key>repository</key>
+	<dict>
+		<!-- Critic markdown rules -->
+		<key>critic-substitution</key>
+		<dict>
+			<key>comment</key>
+			<string>Editorial Substitution</string>
+			<key>match</key>
+			<string>\{\~\~(.*?)\~\~\}</string>
+			<key>name</key>
+			<string>criticmarkup.substitution</string>
+		</dict>
+		<key>critic-addition</key>
+		<dict>
+			<key>comment</key>
+			<string>Editorial Addition</string>
+			<key>match</key>
+			<string>\{\+\+(.*?)\+\+[ \t]*(\[(.*?)\])?[ \t]*\}</string>
+			<key>name</key>
+			<string>criticmarkup.addition</string>
+		</dict>
+		<key>critic-deletion</key>
+		<dict>
+			<key>comment</key>
+			<string>Editorial Deletion</string>
+			<key>match</key>
+			<string>\{\-\-(.*?)\-\-[ \t]*(\[(.*?)\])?[ \t]*\}</string>
+			<key>name</key>
+			<string>criticmarkup.deletion</string>
+		</dict>
+		<key>critic-highlight</key>
+		<dict>
+			<key>highlight</key>
+			<string>Editorial Highlight</string>
+			<key>match</key>
+			<string>\{==(.*?)[ \t]*(\[(.*?)\])?[ \t]*==\}</string>			
+			<key>name</key>
+			<string>criticmarkup.highlight</string>
+		</dict>
+		<key>critic-comment</key>
+		<dict>
+			<key>comment</key>
+			<string>Editorial Mark</string>
+			<key>begin</key>
+			<string>\{&gt;&gt;</string>
+			<key>end</key>
+			<string>&lt;&lt;\}</string>
+			<key>name</key>
+			<string>criticmarkup.comment</string>
+		</dict>
+		<!-- End Critic markdown rules -->
+	</dict>
+
 	<key>scopeName</key>
 	<string>text.pandoc</string>
 	<key>uuid</key>
