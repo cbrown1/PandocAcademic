@@ -4,11 +4,11 @@
         "children":
         [
             {
-                "caption": "Pandoc Academic",
+                "caption": "Pwndoc Academic",
                 "children":
                 [
                     {
-                        "caption": "Pandoc Convert",
+                        "caption": "Pwndoc Convert",
                         "children":
                         [
                             {
@@ -34,7 +34,7 @@
                         ]
                     },
                     {
-                        "caption": "Pandoc Table",
+                        "caption": "Pwndoc Table",
                         "children":
                         [
                             {

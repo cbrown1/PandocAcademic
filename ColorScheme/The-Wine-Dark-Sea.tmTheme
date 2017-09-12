@@ -307,7 +307,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Pandoc Footnote and Citation Brackets</string>
+			<string>Pwndoc Footnote and Citation Brackets</string>
 			<key>scope</key>
 			<string>citation.bracket.pandoc, footnote.bracket.pandoc</string>
 			<key>settings</key>
@@ -328,7 +328,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>lightyellow</string>
+				<string>#7AA6DA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -358,7 +358,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Pandoc Tag</string>
+			<string>Pwndoc Tag</string>
 			<key>scope</key>
 			<string>tag.pandoc</string>
 			<key>settings</key>
@@ -371,7 +371,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Pandoc Math</string>
+			<string>Pwndoc Math</string>
 			<key>scope</key>
 			<string>math.pandoc</string>
 			<key>settings</key>
@@ -384,7 +384,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Pandoc Metainfo</string>
+			<string>Pwndoc Metainfo</string>
 			<key>scope</key>
 			<string>metainfo.source.pandoc</string>
 			<key>settings</key>
@@ -396,7 +396,7 @@
 
 		<dict>
 			<key>name</key>
-			<string>Pandoc Code Block</string>
+			<string>Pwndoc Code Block</string>
 			<key>scope</key>
 			<string>code.pandoc</string>
 			<key>settings</key>
@@ -409,7 +409,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Pandoc Links</string>
+			<string>Pwndoc Links</string>
 			<key>scope</key>
 			<string>link.pandoc</string>
 			<key>settings</key>

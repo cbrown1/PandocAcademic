@@ -1,21 +1,21 @@
 [
     {
-        "caption": "Pandoc: Convert a Pandoc file to HTML",
+        "caption": "Pwndoc: Convert a Pandoc file to HTML",
         "command": "pandoc_convertor",
         "args":{"target":"html"}
     },
     {
-        "caption": "Pandoc: Convert a Pandoc file to DocX",
+        "caption": "Pwndoc: Convert a Pandoc file to DocX",
         "command": "pandoc_convertor",
         "args":{"target":"docx"}
     },
     {
-        "caption": "Pandoc: Convert a Pandoc file to PDF",
+        "caption": "Pwndoc: Convert a Pandoc file to PDF",
         "command": "pandoc_convertor",
         "args":{"target":"pdf"}
     },
     {
-        "caption": "Pandoc: Convert a Pandoc file to Beamer",
+        "caption": "Pwndoc: Convert a Pandoc file to Beamer",
         "command": "pandoc_convertor",
         "args":{"target":"beamer"}
     }
