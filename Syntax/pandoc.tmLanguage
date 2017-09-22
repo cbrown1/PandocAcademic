@@ -11,7 +11,7 @@
 		<string>markdn</string>
 	</array>
 	<key>name</key>
-	<string>Pwndoc</string>
+	<string>Pandoc</string>
 	<key>patterns</key>
 	<array>
 		<dict>

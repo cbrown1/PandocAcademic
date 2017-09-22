@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[{++$SELECTION++}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <!-- <tabTrigger>delete</tabTrigger> -->
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html.markdown,text.html.markdown.multimarkdown</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Critic Markup: Selection -> Insertion</description>
+</snippet>

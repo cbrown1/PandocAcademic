@@ -46,7 +46,7 @@ class PandocConvertorCommand(sublime_plugin.TextCommand):
             self.view.score_selector(0, "text.html.markdown.multimarkdown") > 0)
 
     def getTemplatePath(self, filename):
-        path = os.path.join(sublime.packages_path(), 'Pwndoc Academic',
+        path = os.path.join(sublime.packages_path(), 'Pandoc Academic',
                                 'Styles', filename)
         if os.path.isfile(path):
             print("Template file found in the default template folder")

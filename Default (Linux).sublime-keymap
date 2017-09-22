@@ -1,0 +1,17 @@
+[
+
+    { "keys": ["shift+alt+i"], "command": "insert_snippet", "args": {"contents": "{++$0 ++}"}},
+    { "keys": ["shift+alt+c"], "command": "insert_snippet", "args": {"contents": "{>>$0 <<}"}},
+
+    { "keys": ["alt+c"], "command": "insert_snippet", 
+      "args": { "name": "Packages/User/PandocAcademic/Snippets/critic_comment.sublime-snippet" } },
+    { "keys": ["alt+h"], "command": "insert_snippet", 
+      "args": { "name": "Packages/User/PandocAcademic/Snippets/critic_highlight.sublime-snippet" } },
+    { "keys": ["alt+d"], "command": "insert_snippet", 
+      "args": { "name": "Packages/User/PandocAcademic/Snippets/critic_delete.sublime-snippet" } },
+    { "keys": ["alt+s"], "command": "insert_snippet", 
+      "args": { "name": "Packages/User/PandocAcademic/Snippets/critic_substitute.sublime-snippet" } },
+    { "keys": ["alt+i"], "command": "insert_snippet", 
+      "args": { "name": "Packages/User/PandocAcademic/Snippets/critic_insert.sublime-snippet" } },
+
+]
